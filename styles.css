@@ -1,5 +1,33 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
 .attribution { font-size: 11px; text-align: center; }
+
 .attribution a { color: hsl(228, 45%, 44%); }
-#img{float: left;}
-#ext{float:right;}
+
+.img1{
+    float: left;
+    border-radius: 20%;
+}
+.text{float:left;}
+
 #thebody{clear: both;}
+
+.item1{
+    border-radius: 10%;
+    background-color: blueviolet;
+    grid-column: 1/3;
+}
+.item2{background-color: slategray;}
+.item3{background-color: white;}
+.item4{background-color: slategray;}
+.item5{background-color: snow;}
+
+.container{
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid gap: 30px;;
+}
